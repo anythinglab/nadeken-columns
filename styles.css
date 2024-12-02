@@ -1,67 +1,76 @@
+/* 全体の背景色を設定 */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #bbb;
+    background-color: #e6f7e6; /* 淡い緑色 */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 0; /* ページ全体の余白をなくす */
+    padding: 0; /* ページ全体の余白をなくす */
 }
 
-header {
-  background-color: #555;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
+/* コンテンツ全体を囲む */
+.container {
+    background-color: #ffffff; /* 白い背景 */
+    margin: 20px auto; /* 上下に余白を確保し、左右を中央揃え */
+    padding: 20px; /* 内側に余白を追加 */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    max-width: 800px; /* 最大幅を設定 */
+    min-height: calc(100vh - 40px); /* 背景が上下に広がる */
+    box-sizing: border-box; /* パディングを含めたサイズ計算 */
 }
 
-section {
-  padding: 1em;
-  max-width: 1000px;
-  margin: 0 auto 200px;
-  background-color: #fff;
+/* 見出しスタイル */
+header h1 {
+    color: rgba(0,0,0,0.9); /* 濃い緑色 */
+    text-align: center; /* 中央揃え */
+    margin: 0 0 20px; /* 下に余白を追加 */
+}
+
+/* 本文スタイル */
+main p {
+    color: #333; /* 文字色 */
+    line-height: 2; /* 行間を広げる */
+    margin: 0; /* デフォルトの余白をなくす */
+    word-wrap: break-word; /* 長い単語を折り返す */
+    overflow-wrap: break-word; /* 互換性のための指定 */
+    padding: 0.5em;
+}
+
+h2{
+    /*background-color: rgba(0,255,0,0.15);*/
+    color: rgba(0,0,0,0.8);
+    font-size:25px;
+    padding:10px;
+    padding-left:0px;
+    border-bottom: 2px solid rgba(0,128,0,0.5);
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+ 
+}
+h3{
+    /*background-color: rgba(0,255,0,0.08);*/
+    border-left: 2px solid rgba(0,128,0,0.5); 
+    color: rgba(0,0,0,0.8);
+    font-size:20px;
+    padding:0px;
+    padding-left:5px;
+    padding-top:0px;
+    /*border-bottom: 1px solid rgba(0,0,0,0.5);*/
+    margin: 0px;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    margin-left: 0.5em;
 }
 
 footer {
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-footer li {
-  margin-right: 10px;
-  margin-bottom: 5px;
-  width: 120px;
-}
-
-footer a {
-  text-decoration: none;
-}
-
-hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.textbox {
-            /*width: 300px;*/
-            padding: 10px;
-            border: 2px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-}
-
-.red {
-	color: red;
+    border-top: 2px solid rgba(0,128,0,0.5); 
+    background-color: rgba(100,100,100,0);
+    color: #000000;
+    text-align: center;
+    padding:0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: float;
+    bottom: 0;
+    width: 100%;
 }

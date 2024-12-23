@@ -1,37 +1,37 @@
 /* 全体の背景色を設定 */
 body {
-    background-color: #e6f7e6; /* 淡い緑色 */
-    font-family: Arial, sans-serif; /* フォント */
-    margin: 0; /* ページ全体の余白をなくす */
-    padding: 0; /* ページ全体の余白をなくす */
+    background-color: #e6f7e6; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
 }
 
 /* コンテンツ全体を囲む */
 .container {
-    background-color: #ffffff; /* 白い背景 */
-    margin: 20px auto; /* 上下に余白を確保し、左右を中央揃え */
-    padding: 20px; /* 内側に余白を追加 */
-    border-radius: 10px; /* 角を丸くする */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影を追加 */
-    max-width: 800px; /* 最大幅を設定 */
-    min-height: calc(100vh - 40px); /* 背景が上下に広がる */
-    box-sizing: border-box; /* パディングを含めたサイズ計算 */
+    background-color: #ffffff; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    max-width: 800px; 
+    min-height: calc(100vh - 40px); 
+    box-sizing: border-box; 
 }
 
 /* 見出しスタイル */
 header h1 {
-    color: rgba(0,0,0,0.9); /* 濃い緑色 */
-    text-align: center; /* 中央揃え */
-    margin: 0 0 20px; /* 下に余白を追加 */
+    color: rgba(0,0,0,0.9); 
+    text-align: center; 
+    margin: 0 0 20px; 
 }
 
 /* 本文スタイル */
 main p {
-    color: #333; /* 文字色 */
-    line-height: 2; /* 行間を広げる */
-    margin: 0; /* デフォルトの余白をなくす */
-    word-wrap: break-word; /* 長い単語を折り返す */
-    overflow-wrap: break-word; /* 互換性のための指定 */
+    color: #333;
+    line-height: 2;
+    margin: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     padding: 0.5em;
 }
 
